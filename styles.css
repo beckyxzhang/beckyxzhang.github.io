@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  background-color: #F3F0D7;
+}
+
+.sidebar{
+  background-color: #FBE333;
+  width: 150px;
+}
+
+.button {
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.page {
+  display: block;
+padding-left: 25px;
+}
+
+.photo {
+  margin-left: 20px;
+  display: block;
+}
