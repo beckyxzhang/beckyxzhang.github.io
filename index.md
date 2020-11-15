@@ -12,7 +12,7 @@
 
     <div class ="main">
       <sidebar>
-        <div class="button"><a href='home.md'>Home</a></div>
+        <div class="button"><a href='index.md'>Home</a></div>
         <div class="button"><a href='writing.md'>Writing</a></div>
         <div class="button"><a href='editing.md'>Editing</a></div>
         <div class="button"><a href='connect.md'>Connect</a></div>
@@ -27,3 +27,4 @@
         <img class="photo" alt="becky on the metrolink" src="metrobeck.png" width="300"/>
       </div>
     </div>
+    </body>

@@ -1,27 +1,24 @@
-<!DOCTYPE html>
-<html lang='en'>
+<head>
+  <meta charset='UTF-8'/>
+  <title>Writing</title>
+  <link rel='stylesheet' href='styles.css'/>
+</head>
 
-  <head>
-    <meta charset='UTF-8'/>
-    <title>Writing</title>
-    <link rel='stylesheet' href='styles.css'/>
-  </head>
+<body>
+  <header>
+    <h1>Becky Zhang</h1>
+  </header>
 
-  <body>
-    <header>
-      <h1>Becky Zhang</h1>
-    </header>
+  <div class ="main">
+    <sidebar>
+      <div class="button"><a href='index.md'>Home</a></div>
+      <div class="button"><a href='writing.md'>Writing</a></div>
+      <div class="button"><a href='editing.md'>Editing</a></div>
+      <div class="button"><a href='connect.md'>Connect</a></div>
+    </sidebar>
 
-    <div class ="main">
-      <sidebar>
-          <div class="button"><a href='home.html'>Home</a></div>
-          <div class="button"><a href='writing.html'>Writing</a></div>
-          <div class="button"><a href='editing.html'>Editing</a></div>
-          <div class="button"><a href='connect.html'>Connect</a></div>
-      </sidebar>
-
-    <div class="page">
-      <p class = "link">
+  <div class="page">
+    <p class = "link">
 
 <a href="https://lareviewofbooks.org/article/say-my-name-on-raven-leilanis-luster/">
           Say My Name: On Raven Leilani’s “Luster”
@@ -74,6 +71,4 @@
       </p>
 
     </div>
-  </body>
-
-</html>
+    </body>
