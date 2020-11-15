@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang='en'>
   <head>
     <meta charset='UTF-8'/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +12,10 @@
 
     <div class ="main">
       <sidebar>
-          <div class="button"><a href='home.html'>Home</a></div>
-          <div class="button"><a href='writing.html'>Writing</a></div>
-          <div class="button"><a href='editing.html'>Editing</a></div>
-          <div class="button"><a href='connect.html'>Connect</a></div>
+        <div class="button"><a href='home.md'>Home</a></div>
+        <div class="button"><a href='writing.md'>Writing</a></div>
+        <div class="button"><a href='editing.md'>Editing</a></div>
+        <div class="button"><a href='connect.md'>Connect</a></div>
       </sidebar>
 
       <div class="page">
@@ -29,5 +27,3 @@
         <img class="photo" alt="becky on the metrolink" src="metrobeck.png" width="300"/>
       </div>
     </div>
-
-</html>
