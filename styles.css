@@ -36,3 +36,7 @@
 a {
   text-decoration: none;
 }
+
+.social-media-logos {
+  display: flex;
+}
