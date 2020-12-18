@@ -18,7 +18,8 @@ body {
 
 .main {
   display: flex;
-  background-color:#F3E0BE;
+  background-color:#dfd5d585;
+  height: 100%;
 }
 
 .sidebar{
@@ -34,6 +35,11 @@ body {
   display: block;
   margin-left: 0;
   height: 100%;
+}
+
+.synopsis {
+  padding-right: 80px;
+  line-height: 1.3em;
 }
 
 .photo {
