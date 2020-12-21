@@ -4,12 +4,12 @@
 
 * {
   box-sizing: border-box;
-  margin: 20px;
+  margin: 30px;
 }
 
 .header {
   text-align: center;
-  width: 100px;
+  width: 50px;
 }
 
 body {
@@ -19,11 +19,12 @@ body {
 .main {
   display: flex;
   background-color:#dfd5d585;
-  height: 100%;
+  height: auto;
 }
 
 .sidebar{
-  width: 90px;
+  width: 40px;
+  margin-left: 0px;
 }
 
 .button {
@@ -33,7 +34,7 @@ body {
 
 .page {
   display: block;
-  margin-left: 0;
+  margin-left: 0px;
   height: 100%;
 }
 
