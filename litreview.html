@@ -1,0 +1,58 @@
+<head>
+    <meta charset='UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='styles.css'/>
+    <link href="//db.onlinewebfonts.com/c/86e4910dca09b21de768cb0714d40970?family=Photina" rel="stylesheet" type="text/css"/>
+    <title>Becky and Alex's 152 Project Literature Review</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  
+  <body>
+    <div class="main">
+      <header>
+          <h1><a class='navigator' href='index.html'>Becky <br> Zhang</a></h1>
+      </header>
+      <sidebar>
+      </sidebar>
+      <div class="page">
+        <h2>Neural Networks Literature Review</h2>
+        <h3>An ethical investigation into Spotify recommendations</h3> 
+        <p>Becky Zhang and Alex Franklin | February 25, 2021</p>
+
+        <ol>
+          <li><a>https://web.stanford.edu/~rezab/nips2014workshop/submits/logmat.pdf </a></li>
+          <p>This Stanford research paper by a Spotify engineer presents logistic matrix 
+            factorization as a tool for collaborative filtering, one of the three deep 
+            learning tools Spotify uses to make recommendations based on implicit user feedback data. 
+            This offers a more concrete explanation of one way to effectively conduct collaborative filtering.
+          </p>
+          <li><a>https://dl.acm.org/doi/abs/10.1145/3366423.3380281?casa_token=vDRONauZb0oAAAAA:7WQ_BxL-nXgJPL4d2jPLyL9N9avIMfEWW5iJ7roEMjDBN7SxPQHfm0kspK_LuBipr9x7N9Yi4p90YQ</a></li>
+          <p>This research article highlights a key flaw to collaborative 
+            filtering models: their reliance on existing implicit user data generates
+             recommendations biased toward older and more popular songs, compromising 
+             and actively reducing the diversity of music which people using their 
+             recommendations consume. We haven’t been able to read past the abstract, 
+             however, because we don’t yet have access to the full paper.
+          </p>
+          <li><a>https://benanne.github.io/2014/08/05/spotify-cnns.html</a></li> 
+          <p> Spotify uses a combination of collaborative filtering, NLP, and content-based recommendation (which this post is about). 
+            The audio signal of one million songs on Spotify was used to train a neural network, of which different convolutional 
+            layers seem to recognize certain aspects of the music.
+          </p>
+          
+          <li><a>https://blogs.commons.georgetown.edu/cctp-607-spring2019/2019/05/06/music-to-my-ears-de-blackboxing-spotifys-recommendation-algorithm/</a></li>
+          <p>This post had a general overview of Spotify and its Discover Weekly feature. 
+            It went into additional detail about the issues of the “cold start problem” 
+            and outlier detection in recommendation decision making processes.</p>
+          <li><a>https://blogs.cornell.edu/info2040/2018/09/17/how-does-spotify-know-you-so-well/</a></li> 
+          <p> This is another more general overview of Spotify’s deep learning processes, with 
+            some helpful diagrams and explanations of such things as “cultural vectors” defined 
+            using NLP and user and song vectors and their matrix operations in collaborative filtering. 
+            It also mentions Spotify’s acquisition of music intelligence company The Echo Nest, which 
+            was central to its initial success in generating superior recommendations.
+          </p>          
+        </ol>
+      </div>
+    </div>
+  </body>
+  
