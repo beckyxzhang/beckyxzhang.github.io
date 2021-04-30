@@ -82,3 +82,27 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+sub {
+  margin: 0;
+  padding: 0; 
+}
+
+.figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+.caption {
+  text-align: center;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+.byline {
+  text-align: center;
+}
