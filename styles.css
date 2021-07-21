@@ -2,6 +2,19 @@
 
 @font-face {font-family: "Photina"; src: url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.eot"); src: url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.woff") format("woff"), url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.svg#Photina") format("svg"); }
 
+
+@media only screen and (max-width: 401px){
+  .sidebar{
+    width: 10px;
+    margin-left: 0px;
+  }
+  .header {
+    text-align: center;
+    font-size: small;
+    width: 10px;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 30px;
