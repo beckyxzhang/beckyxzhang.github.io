@@ -1,28 +1,37 @@
 @import url(//db.onlinewebfonts.com/c/86e4910dca09b21de768cb0714d40970?family=Photina);
-
 @font-face {font-family: "Photina"; src: url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.eot"); src: url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.woff") format("woff"), url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/86e4910dca09b21de768cb0714d40970.svg#Photina") format("svg"); }
-
-
-@media only screen and (max-width: 401px){
-  .sidebar{
-    width: 10px;
-    margin-left: 0px;
-  }
-  .header {
-    text-align: center;
-    font-size: small;
-    width: 10px;
-  }
-}
 
 * {
   box-sizing: border-box;
   margin: 30px;
 }
+@media only screen and (max-width: 400px) {
+  .main {
+    flex-wrap: wrap;
+  }
+  .header {
+    width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .page {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 401px) {
+  
+  .header {
+    width: 50px;
+  }
+  .sidebar {
+    width: 40px;
+  }
+}
 
 .header {
   text-align: center;
-  width: 50px;
 }
 
 body {
@@ -36,7 +45,6 @@ body {
 }
 
 .sidebar{
-  width: 40px;
   margin-left: 0px;
 }
 
@@ -110,12 +118,16 @@ sub {
 .row {
   display: flex;
 }
+
+
+
 .caption {
   text-align: center;
   margin: 0;
   padding-top: 0;
   padding-bottom: 15px;
 }
+
 .byline {
   text-align: center;
 }
