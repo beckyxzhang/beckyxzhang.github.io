@@ -30,6 +30,12 @@
   }
 }
 
+
+.pics {
+  display: flex;
+  margin: 0;
+}
+
 .header {
   text-align: center;
 }
