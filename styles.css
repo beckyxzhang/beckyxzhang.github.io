@@ -21,7 +21,7 @@
 }
 
 @media only screen and (min-width: 401px) {
-  
+
   .header {
     width: 50px;
   }
@@ -112,7 +112,7 @@ ul {
 
 sub {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 .figure {
